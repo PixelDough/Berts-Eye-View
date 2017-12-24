@@ -7,7 +7,7 @@
         "807511ed-4210-48bd-b141-9f96a3f949de"
     ],
     "filterType": "GMObject",
-    "folderName": "Thief",
+    "folderName": "PlayerObjects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
