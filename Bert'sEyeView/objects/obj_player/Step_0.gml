@@ -17,11 +17,6 @@ if !instance_exists(obj_dialogue_box) {
 	} else {
 		ACTION = player.walk;
 	}
-
-
-	if input.action_one_pressed and grounded {
-		vy = -jh;
-	}
 	
 	if !grounded {
 		vx *= .85;
