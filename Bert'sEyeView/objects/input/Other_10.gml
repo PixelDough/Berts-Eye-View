@@ -15,5 +15,7 @@ action_one = keyboard_check(ord("F"));
 
 action_two_pressed = keyboard_check_pressed(ord("G"));
 action_one_pressed = keyboard_check_pressed(ord("F"));
+
+any = keyboard_check_pressed(vk_anykey);
 	
 pause_pressed = keyboard_check_pressed(vk_enter);
