@@ -3,11 +3,11 @@ if !instance_exists(obj_dialogue_box) {
 
 	if vx < 0 dir = -1 else if vx > 0 dir = 1;
 
-	if input.l vx = max(vx - spd, -spd_max);
-	if input.r vx = min(vx + spd, spd_max);
+	if input.left vx = max(vx - spd, -spd_max);
+	if input.right vx = min(vx + spd, spd_max);
 
 
-	if (!input.l and !input.r) or (input.l and input.r) {
+	if (!input.left and !input.right) or (input.left and input.right) {
 		vx *= slip;
 	}
 
@@ -21,9 +21,11 @@ if !instance_exists(obj_dialogue_box) {
 	if !grounded {
 		vx *= .85;
 	}
-
-	event_user(ACTION);
+} else {
+	ACTION = player.idle;
 }
+
+event_user(ACTION);
 
 if sprite_index != sprite_index_last {
 	image_index = 0;

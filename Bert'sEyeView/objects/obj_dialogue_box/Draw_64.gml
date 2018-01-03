@@ -16,8 +16,13 @@ draw_set_font(global.font_doodle);
 
 draw_set_color(c_black);
 
-draw_text_ext(x+xOff, y+yOff, print_string, 17, 348);
+draw_text_ext(x+xOff, y+yOff, print, 17, 348);
 
 draw_set_halign(fa_center);
 draw_text(x+105, 13, myName);
 draw_set_halign(fa_left);
+
+var _line = "\"" + myText[part] + "\"";
+if floor(char) == string_length(_line) {
+	draw_sprite(spr_dialogue_finished, image_index, bbox_right-14, bbox_bottom-10);
+}

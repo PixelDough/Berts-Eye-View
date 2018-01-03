@@ -1,0 +1,1 @@
+global.orders[array_length_1d(global.orders)] = argument0;

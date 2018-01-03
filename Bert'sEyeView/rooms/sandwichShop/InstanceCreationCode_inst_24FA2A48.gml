@@ -1,0 +1,1 @@
+myText = ["Hey, could I get the usual?", "A regular BLT with a slice of GRATITUDE."];

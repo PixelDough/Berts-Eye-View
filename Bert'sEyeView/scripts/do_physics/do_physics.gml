@@ -30,11 +30,6 @@ with other {
 			vy = 0;
 			grounded = true;
 		}
-		
-		//loop
-		if y-16 > room_height {
-			room_restart();
-		}
 	}
 	
 	//limit fall speed

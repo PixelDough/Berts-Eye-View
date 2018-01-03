@@ -1,10 +1,11 @@
-ACTION = 0;
-event_user(ACTION);
+right = false;
+left = false;
+up = false;
+down = false;
 
-//keyboard_set_map(ord("W"),vk_up);
-//keyboard_set_map(ord("A"),vk_left);
-//keyboard_set_map(ord("S"),vk_down);
-//keyboard_set_map(ord("D"),vk_right);
+right_p = false;
+left_p = false;
+up_p = false;
+down_p = false;
 
-//keyboard_set_map(ord("M"),ord("X"));
-//keyboard_set_map(ord("N"),ord("Z"));
+action  = false;

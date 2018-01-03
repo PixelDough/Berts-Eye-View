@@ -1,9 +1,11 @@
 part = 0;
 char = 0;
-print_string = ""
+print = "";
 
-myName = "NPC";
-myText[0] = "";
+spd = 0.5;
+
+myName = "ERROR";
+myText[0] = "I AM ERROR.";
 
 xOff = 13;
 yOff = 44;

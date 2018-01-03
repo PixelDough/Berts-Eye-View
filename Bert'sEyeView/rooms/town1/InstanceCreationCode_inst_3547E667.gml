@@ -1,0 +1,1 @@
+myText = dialogue(0);
